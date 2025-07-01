@@ -66,10 +66,7 @@ const AppContent = () => {
     initializeMockData();
   }, []);
 
-
-const App = () => {
   return (
-
     <Router>
       <Routes>
         {/* Public Routes */}
