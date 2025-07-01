@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './hooks/useAuth.js';
@@ -66,14 +65,11 @@ const AppContent = () => {
     // Initialize mock data on app start
     initializeMockData();
   }, []);
-=======
-import {Routes, Route} from "react-router-dom";
-import Home from "./pages/home";
->>>>>>> ac87bb6597ee6a2c69ac3e9da400271c9185d5e4
+
 
 const App = () => {
   return (
-<<<<<<< HEAD
+
     <Router>
       <Routes>
         {/* Public Routes */}
@@ -153,13 +149,4 @@ function App() {
 }
 
 export default App;
-=======
-    <Routes>
-      <Route path="/" element={<Home />}/>
-      
-    </Routes>
-  )
-}
 
-export default App;
->>>>>>> ac87bb6597ee6a2c69ac3e9da400271c9185d5e4
