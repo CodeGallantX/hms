@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -153,3 +154,6 @@
     animation: slideUp 0.3s ease-out;
   }
 }
+=======
+@import "tailwindcss";
+>>>>>>> ac87bb6597ee6a2c69ac3e9da400271c9185d5e4
